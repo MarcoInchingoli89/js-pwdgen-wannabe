@@ -9,6 +9,9 @@ const myColor = prompt ('Qual`è il tuo colore preferito?');
 console.log (myColor);
 // Imposta variabile numerica 22 per la password
 const passwordNumber = (22);
+// Imposta variabile password
+const passwordNotSecureGenerated = (myUsername + mySurname + myColor + passwordNumber);
 // Genera password su schermo: nomecongnomecolorepreferito22
-document.getElementById('generate_password').innerHTML = (myUsername + mySurname + myColor + passwordNumber);
-console.log ('Password Generated:', myUsername + mySurname + myColor + passwordNumber);
+document.getElementById('generate_password').innerHTML = 'Password Generated: '
+document.getElementById('password').innerHTML = (passwordNotSecureGenerated);
+console.log ('Password Generated:', passwordNotSecureGenerated);
