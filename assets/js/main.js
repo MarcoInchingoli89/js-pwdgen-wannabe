@@ -1,14 +1,14 @@
 // Chiedi il suo nome
-const username = prompt ('Come ti chiami?');
-console.log (username);
+const myUsername = prompt ('Come ti chiami?');
+console.log (myUsername);
 // Chiedi il suo cognome
-const surname = prompt ('Qual`è il tuo cognome?');
-console.log (surname);
+const mySurname = prompt ('Qual`è il tuo cognome?');
+console.log (mySurname);
 // Chiedi il suo colore preferito
-const color = prompt ('Qual`è il tuo colore preferito?');
-console.log (color);
+const myColor = prompt ('Qual`è il tuo colore preferito?');
+console.log (myColor);
 // Imposta variabile numerica 22 per la password
-const number = (22);
+const passwordNumber = (22);
 // Genera password su schermo: nomecongnomecolorepreferito22
-document.getElementById('generate_password').innerHTML = (username + surname + color + number);
-console.log ('Password Generated:', username + surname + color + number);
+document.getElementById('generate_password').innerHTML = (myUsername + mySurname + myColor + passwordNumber);
+console.log ('Password Generated:', myUsername + mySurname + myColor + passwordNumber);
